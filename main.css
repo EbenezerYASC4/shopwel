@@ -1,0 +1,52 @@
+
+html {
+  font-family: sans-serif;
+}
+
+form {
+  margin: 0 auto;
+  width: 300px;
+  position: absolute;
+}
+
+div {
+  margin-bottom: 10px;
+}
+
+fieldset {
+  background: cyan;
+  border: 10px solid blue;
+}
+
+legend {
+  padding: 10px;
+  background: blue;
+  color: cyan;
+}
+
+#otherValue
+{
+  display: none;
+}
+
+#other:checked ~ #otherValue
+{
+  display: inline-block;
+}
+
+#first {
+  /*float: left;*/
+  top: 0;
+}
+#second {
+  left: 350px;
+  top: 0;
+}
+
+#select{
+ position: absolute 500px, 500px;
+}
+ 
+.dash {
+ margin-top: 50px;
+}
