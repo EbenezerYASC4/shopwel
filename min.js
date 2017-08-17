@@ -56,7 +56,7 @@ $("#bar").keypress(function(e) {
     if (e.which === 13) {  //checks whether the pressed key is "Enter"
         var input = $("#bar").val();
         console.log("http://api.shopstyle.com/api/v2/products?pid=uid9216-39734904-2&fts=" + encodeURIComponent(input) + "&offset=0&limit=10");
-        $.get("http://api.shopstyle.com/api/v2/products?pid=uid9216-39734904-2&fts=" + encodeURIComponent(input) + "&offset=0&limit=10", function(data){
+        $.get("https://api.shopstyle.com/api/v2/products?pid=uid9216-39734904-2&fts=" + encodeURIComponent(input) + "&offset=0&limit=10", function(data){
 
            // ITERATE THROUGH ALL PRODUCTS IN DATA.PRODUCTS ARRAY
           for(var i = 0; i < data.products.length; i++) {
