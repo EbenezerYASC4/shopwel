@@ -30,7 +30,7 @@ function autoShowSlides() {
    slideIndex++;
    if (slideIndex> slides.length) {slideIndex = 1}
    slides[slideIndex-1].style.display = "block";
-   setTimeout(autoShowSlides, 20000); // Change image every 2 seconds
+   setTimeout(autoShowSlides, 2000); // Change image every 2 seconds
 }
 // end of slide show
 
@@ -50,6 +50,7 @@ function autoShowSlides() {
       }
     }
   });
+
 
   // save input
 $("#bar").keypress(function(e) {
@@ -196,4 +197,9 @@ function initialize() {
 
 // Run the initialize function when the window has finished loading.
 
+// // redirect to results
+// <a href="home" id="home">home</a>
 
+// $('#success').click(function(){
+// $(document).scrollTop(100) // any value you need
+// });

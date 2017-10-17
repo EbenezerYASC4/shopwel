@@ -5,7 +5,7 @@ html {
 
 form {
   margin: 0 auto;
-  width: 300px;
+  width: 500px;
   position: absolute;
 }
 
@@ -44,9 +44,10 @@ legend {
 }
 
 #select{
- position: absolute 500px, 500px;
+ position: absolute 300px, 300px;
 }
  
 .dash {
  margin-top: 50px;
 }
+
